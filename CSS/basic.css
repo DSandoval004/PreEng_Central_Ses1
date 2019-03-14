@@ -20,7 +20,7 @@ body {
 
     height: fit-content;
     min-height: 100%;
-    width: 80%;
+    width: 90%;
 
 
     margin: 0 auto;
@@ -29,6 +29,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Basic Styles */

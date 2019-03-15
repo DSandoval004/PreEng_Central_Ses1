@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* HTML and Body */
-/* A basic CSS sheets, that applie certian styles that I want, this is so I don,t have to retype everything. */
+/* A basic CSS sheets, that apply certain styles that I want, this is so I don't have to retype everything. */
 /* 
 !HTML - background
 !Body - background
@@ -20,7 +20,7 @@ body {
 
     height: fit-content;
     min-height: 100%;
-    width: 90%;
+    width: 85%;
 
 
     margin: 0 auto;
@@ -32,6 +32,19 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+div.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    position: fixed;
+    width: 99.2%;
+    left: 0;
+    bottom: 0;
+    background-color: orange;
+    color: white;
+    text-align: center;
 }
 
 /* Basic Styles */
